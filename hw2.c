@@ -66,7 +66,7 @@ int main () {
   //printf("%d",Notnum);
   if(Notnum >= 1) NNFcheck(plist, plist->head);
 
-  //Rearrange(plist,plist->head->next); // NULL node delete
+  Rearrange(plist,plist->head->next); // NULL node delete
   printf("\n");
   show_node(plist, plist->head->next); // NNF form succ
 
@@ -498,7 +498,7 @@ node* NNFchange_one(list* L, node* p, int block)
   //if (L->head == p->prev)
   //  deletenode(L,p,NULL);
   //else
-  deletenode(L, p, p->prev);
+  //deletenode(L, p, p->prev);
   node* org_p = copy;
   while(copy->block > block)
   {
@@ -582,7 +582,7 @@ void Rearrange(list *L, node* p) // p == L->head->next
   L->head = new;
   while(p != L->tail)
   {
-    if(p->type == 1 || p->type == 2 || p->type == 3 || p->type == 0)
+    if(p->type == 1 || p->type == 3 || p->type == 0)
     {
       new->next = p;
       p->prev = new;
