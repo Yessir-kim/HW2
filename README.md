@@ -3,9 +3,9 @@
 ## \<Input step>
 
 ### Chapter 1. Execute source file
-> How to build?
-`gcc hw2.c -o file <or> make`
-> How to run? 
+> How to build?<br/>
+`gcc hw2.c -o file <or> make`<br/>
+> How to run? <br/>
 `./file`
 
 ### Chapter 2. Input a propositional formula
