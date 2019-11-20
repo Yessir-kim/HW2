@@ -40,7 +40,7 @@ ex) 1
     1 2 3 -4
 ```
 
-## /<Reference>
+## \<Reference>
 When you input a propositional formula, the following rules must be observed.
 Otherwise, Program will be terminated or return Error message.
 
