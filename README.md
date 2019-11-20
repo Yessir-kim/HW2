@@ -4,7 +4,9 @@
 
 ### Chapter 1. Execute source file
 > How to build?<br/>
+
 `gcc hw2.c -o file <or> make`<br/>
+
 > How to run? <br/>
 `./file`
 
