@@ -7,7 +7,8 @@
 
 `gcc hw2.c -o file <or> make`<br/>
 
-> How to run? <br/>
+> How to run?<br/>
+
 `./file`
 
 ### Chapter 2. Input a propositional formula
