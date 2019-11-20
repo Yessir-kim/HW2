@@ -13,7 +13,7 @@
 
 ### Chapter 2. Input a propositional formula
 When you execute program, you must be input a propositional formula. 
-Otherwise, program will return a error message "Invalid form!" and terminate itself.
+Otherwise, program will return a error message "Invalid form!" and be terminated itself.
 ```
 ex) (or a1 (not (or (not (or a2 a3)) a4)))
 ```
@@ -39,3 +39,11 @@ ex) 1
     0
     1 2 3 -4
 ```
+
+## /<Reference>
+When you input a propositional formula, the following rules must be observed.
+Otherwise, Program will be terminated or return Error message.
+
+1. Each word must have a blank space excepting "(" or ")".
+    
+2. The form of propositional variable must be a combination of one alphabet and a number. ex) a1, a2, a3 ...
