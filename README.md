@@ -41,7 +41,7 @@ ex) 1
 ```
 
 ## \<Reference>
-When you input a propositional formula, the following rules must be observed.
+When you input a propositional formula, the following rules must be observed.<br/>
 Otherwise, Program will be terminated or return Error message.
 
 1. Each word must have a blank space excepting "(" or ")".
