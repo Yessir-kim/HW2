@@ -60,15 +60,15 @@ int main () {
   head->prev = NULL;   // Doubly linkendlist
 
   Linked_Node(plist, text, root, &index, block);
-  show_node(plist, plist->head->next); // Linkendlist succ
+  //show_node(plist, plist->head->next); // Linkendlist succ
 
   int Notnum = Notnumber(plist->head->next);
   //printf("%d",Notnum);
   if(Notnum >= 1) NNFcheck(plist, plist->head);
 
   Rearrange(plist,plist->head->next); // NULL node delete
-  printf("\n");
-  show_node(plist, plist->head->next); // NNF form succ
+  //printf("\n");
+  //show_node(plist, plist->head->next); // NNF form succ
 
   //printf("\n");
 
