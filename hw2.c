@@ -414,6 +414,7 @@ void deletenode(list* L, node* p, node* prev)
   {
     prev->next = temp->next;
     temp->next->prev = prev;
+    temp->next = temp->prev = NULL;
   }
   free(temp);
 }
