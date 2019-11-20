@@ -402,22 +402,22 @@ node* Linked_Node(list *L, char string[], node *p, int* index, int block)
 
 void deletenode(list* L, node* p, node* prev)
 {
-  node *temp = (node *)malloc(sizeof(node));
-  temp = p;
+  //node *temp = (node *)malloc(sizeof(node));
+  //temp = p;
 
   if (L->head == prev)
   {
     L->head = p->next;
     p->next->prev = NULL;
-    temp->next = temp->prev = NULL;
+    //temp->next = temp->prev = NULL;
   }
   else
   {
-    prev->next = temp->next;
+    prev->next = p->next;
     p->next->prev = prev;
-    temp->next = temp->prev = NULL;
+    //temp->next = temp->prev = NULL;
   }
-  free(temp);
+  free(p);
 }
 
 int blockcheck(node* p, int block)
