@@ -134,11 +134,11 @@ int main () {
   distribute(plist, plist->head->next, flist, &curr);
 
   if (curr == 0) curr = list_size;
-  
+  /*
   printf("\n");
   for(int j = 0; j < curr; j++)
     printf("%d ", flist[j]);
-  
+  */
   // DNF형식이 맞으면 출력해야 함
   // 아니라면 그냥 종료하는걸로 하자..
   // DNF는 conjunction으로 묶인 절이 한개 이거나 전체가 disjunction으로 묶인 절이 여러개인 경우임
