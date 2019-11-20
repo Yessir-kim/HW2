@@ -1,16 +1,12 @@
 # DNF conversion
 
-## <Input step>
+## \<Input step>
 
 ### Chapter 1. Execute source file
 > How to build?
-```
-gcc hw2.c -o file <or> make
-```
+`gcc hw2.c -o file <or> make`
 > How to run? 
-```
-./file
-```
+`./file`
 
 ### Chapter 2. Input a propositional formula
 When you execute program, you must be input a propositional formula. 
@@ -18,7 +14,7 @@ Otherwise, program will return a error message "Invalid form!" and terminate its
 ```
 ex) (or a1 (not (or (not (or a2 a3)) a4)))
 ```
-## <Output step>
+## \<Output step>
 
 ### First output 
 > The line before '0' prints the result value in units of clause based on DNF form.
