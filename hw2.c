@@ -409,11 +409,13 @@ void deletenode(list* L, node* p, node* prev)
   {
     L->head = p->next;
     p->next->prev = NULL;
+    temp->next = temp->prev = NULL;
   }
   else
   {
     prev->next = temp->next;
     p->next->prev = prev;
+    temp->next = temp->prev = NULL;
   }
   free(temp);
 }
