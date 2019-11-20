@@ -2,7 +2,7 @@
 
 ## \<Input step>
 
-### Chapter 1. Execute source file
+### Step 1. Execute source file
 > How to build?<br/>
 
 `gcc hw2.c -o file <or> make`<br/>
@@ -11,7 +11,7 @@
 
 `./file`
 
-### Chapter 2. Input a propositional formula
+### Step 2. Input a propositional formula
 When you execute program, you must be input a propositional formula. 
 Otherwise, program will return a error message "Invalid form!" and be terminated itself.
 ```
