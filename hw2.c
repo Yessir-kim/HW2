@@ -66,7 +66,7 @@ int main () {
   //printf("%d",Notnum);
   if(Notnum >= 1) NNFcheck(plist, plist->head);
 
-  Rearrange(plist,plist->head->next); // NULL node delete
+  //Rearrange(plist,plist->head->next); // NULL node delete
   printf("\n");
   show_node(plist, plist->head->next); // NNF form succ
 
