@@ -404,7 +404,8 @@ void deletenode(list* L, node* p, node* prev)
 {
   //node *temp = (node *)malloc(sizeof(node));
   //temp = p;
-
+  p->type = 100;
+	/*
   if (L->head == prev)
   {
     L->head = p->next;
@@ -418,6 +419,7 @@ void deletenode(list* L, node* p, node* prev)
     //temp->next = temp->prev = NULL;
   }
   free(p);
+  */
 }
 
 int blockcheck(node* p, int block)
@@ -460,7 +462,7 @@ node* NNFchange_more(list* L, node* p, int block)
   node* copy = p->next;
   int num;
   //if (L->head == p->prev)
-  //  deletenode(L,p,NULL);
+  //deletenode(L,p,NULL);
   //else
   deletenode(L, p, p->prev);
   node* org_p = copy;
